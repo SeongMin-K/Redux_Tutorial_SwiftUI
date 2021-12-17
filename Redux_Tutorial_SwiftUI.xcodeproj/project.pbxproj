@@ -11,6 +11,12 @@
 		3E9569FC276C628800793437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9569FB276C628800793437 /* ContentView.swift */; };
 		3E9569FE276C628900793437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9569FD276C628900793437 /* Assets.xcassets */; };
 		3E956A01276C628900793437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A00276C628900793437 /* Preview Assets.xcassets */; };
+		3E956A08276C632700793437 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A07276C632700793437 /* DiceView.swift */; };
+		3E956A0A276C64B500793437 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A09276C64B500793437 /* MyButtonStyle.swift */; };
+		3E956A0C276C655300793437 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A0B276C655300793437 /* AppState.swift */; };
+		3E956A0E276C65A100793437 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A0D276C65A100793437 /* AppAction.swift */; };
+		3E956A10276C65EF00793437 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A0F276C65EF00793437 /* Reducer.swift */; };
+		3E956A12276C679D00793437 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A11276C679D00793437 /* AppStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3E9569FB276C628800793437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E9569FD276C628900793437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E956A00276C628900793437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E956A07276C632700793437 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		3E956A09276C64B500793437 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		3E956A0B276C655300793437 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3E956A0D276C65A100793437 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		3E956A0F276C65EF00793437 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		3E956A11276C679D00793437 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				3E9569F9276C628800793437 /* Redux_Tutorial_SwiftUIApp.swift */,
+				3E956A09276C64B500793437 /* MyButtonStyle.swift */,
 				3E9569FB276C628800793437 /* ContentView.swift */,
+				3E956A07276C632700793437 /* DiceView.swift */,
+				3E956A0B276C655300793437 /* AppState.swift */,
+				3E956A0D276C65A100793437 /* AppAction.swift */,
+				3E956A0F276C65EF00793437 /* Reducer.swift */,
+				3E956A11276C679D00793437 /* AppStore.swift */,
 				3E9569FD276C628900793437 /* Assets.xcassets */,
 				3E9569FF276C628900793437 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E9569FC276C628800793437 /* ContentView.swift in Sources */,
+				3E956A0E276C65A100793437 /* AppAction.swift in Sources */,
+				3E956A0C276C655300793437 /* AppState.swift in Sources */,
+				3E956A0A276C64B500793437 /* MyButtonStyle.swift in Sources */,
+				3E956A10276C65EF00793437 /* Reducer.swift in Sources */,
+				3E956A08276C632700793437 /* DiceView.swift in Sources */,
 				3E9569FA276C628800793437 /* Redux_Tutorial_SwiftUIApp.swift in Sources */,
+				3E956A12276C679D00793437 /* AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
